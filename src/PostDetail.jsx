@@ -31,7 +31,7 @@ export function PostDetail({ post, deleteMutation }) {
             Error deleting the post: {deleteMutation.error.toString()}{" "}
           </p>
         )}
-         {deleteMutation.isSucess && (
+         {deleteMutation.isSuccess && (
           <p className="loading">The post was (not) deleted!</p>
         )}
       </div>
