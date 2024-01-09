@@ -1,8 +1,16 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React query / Tanstack Query Blog
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First project created on the Udemy course [React Query: Server State Management in React](https://www.udemy.com/course/learn-react-query/?couponCode=REACT-QUERY-GITHUB)
+
+### Learning summary:
+* Install package, create QueryClient and add QueryProvider
+* useQuery for data
+* staleTime for wheter or not to re-fetch (on trigger)
+* gcTime for how long to hold on to data afterinactivity
+* query keys as dependency arrays
+* pagination and pre-fetching
+* useMutation for server-side effects
